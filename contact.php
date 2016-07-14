@@ -138,12 +138,12 @@
 			$mail->SMTPAuth = true;                  // enable SMTP authentication
 			$mail->Host     = "smtpout.europe.secureserver.net"; // sets the SMTP server
 			$mail->Port     = 80;                    // set the SMTP port for the GMAIL server
-			$mail->Username = "bookings@london-airport-minicab.co.uk"; // SMTP account username
-			$mail->Password = "Bucegi117";        // SMTP account password
+			$mail->Username = "xxx@xxx.xx"; // SMTP account username
+			$mail->Password = "xxx";        // SMTP account password
 
-			$mail->SetFrom( 'bookings@london-airport-minicab.co.uk', 'Magic' );
+			$mail->SetFrom( 'xxx@xxx.xx', 'Magic' );
 
-			$mail->AddReplyTo( 'bookings@london-airport-minicab.co.uk', 'Magic' );
+			$mail->AddReplyTo( 'xxx@xxx.xx', 'Magic' );
 
 			$mail->Subject = "Enquiry Russell Magic Website";
 
@@ -151,8 +151,8 @@
 
 			$mail->MsgHTML( $body );
 
-			$mail->AddAddress( 'russellsmagic@gmail.com', 'Russell Magic Website' );
-			$mail->addBCC( 'ciupicu_bc@yahoo.com', 'Russell Magic Website' );
+			$mail->AddAddress( 'xxx@xxx.xx', 'Russell Magic Website' );
+			$mail->addBCC( 'xxx@xxx.xx', 'Russell Magic Website' );
 
 			if ( ! $mail->Send() ) {
 				$message = '<span style="color: #FF3300;">Message not send. Try again or call us.</span><br>';
