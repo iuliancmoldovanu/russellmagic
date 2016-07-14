@@ -1,0 +1,8 @@
+/*Make sure your page contains a valid doctype at the top*/
+#maingallery {
+	float:left;
+	margin-left:20px;
+	position: relative; /*keep this intact*/
+	visibility: hidden; /*keep this intact*/
+}
+

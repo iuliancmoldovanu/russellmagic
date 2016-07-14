@@ -1,0 +1,23 @@
+.lbGallery {
+	width: 60px;
+	text-align:center;
+	margin-left:50px;	
+	padding-top: 5px;
+}
+.lbGallery ul {
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.lbGallery ul li {
+	display: inline;
+	margin:0;
+	padding:0;
+}
+.lbGallery ul li a {
+	text-decoration:none;
+}
+
+.lbGallery ul a:hover {
+	color: red;
+}
