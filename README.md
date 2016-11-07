@@ -1,2 +1,2 @@
 # russellmagic
-http://www.russellsmagic.co.uk/
+http://russellsmagic.co.uk/
