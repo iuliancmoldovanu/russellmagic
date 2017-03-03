@@ -1,3 +1,3 @@
 # russellmagic
-http://www.russellsmagic.co.uk/
+http://londonkidsmagician.co.uk/
 
